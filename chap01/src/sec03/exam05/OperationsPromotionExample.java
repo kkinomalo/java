@@ -30,5 +30,5 @@ public class OperationsPromotionExample {
 		double result = (double) x / y;
 		System.out.println(result);
 	}
-
+	
 }
