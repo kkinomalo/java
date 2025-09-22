@@ -1,6 +1,6 @@
 package sec06.exam06;
 
-public class Car {
+public class CarExample {
     // 필드
     private int speed;
     private boolean stop;
