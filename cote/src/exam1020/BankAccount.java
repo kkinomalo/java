@@ -1,6 +1,8 @@
 package exam1020;
 
 public class BankAccount {
+	private static int count = 0;
+	
 	private String name;
 	private String accountNumber;
 	private int balance;
@@ -9,11 +11,19 @@ public class BankAccount {
 		this.name = name;
 		this.accountNumber = accountNumber;
 		this.balance = 0;
+		count += 1;
 	}
 	public BankAccount(String name, String accountNumber, int balance) {
 		this.name = name;
 		this.accountNumber = accountNumber;
 		this.balance = balance;
+		count += 1;
+	}
+	public static int getCount() {
+		return count;
+	}
+	public static void setCount(int count) {
+		BankAccount.count = count;
 	}
 	public String getName() {
 		return name;
