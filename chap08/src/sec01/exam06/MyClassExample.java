@@ -22,3 +22,6 @@ public class MyClassExample {
         myClass4.methodB(new Television());
     }
 }
+
+
+
